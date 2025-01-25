@@ -1260,3 +1260,8 @@ responsive
 .main-logo{
   width: 290px
 }
+
+a.navbar-brand{
+  margin-left: 5rem;
+  margin-top: 21px
+}
