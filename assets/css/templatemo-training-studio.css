@@ -1256,3 +1256,7 @@ responsive
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.main-logo{
+  width: 290px
+}
