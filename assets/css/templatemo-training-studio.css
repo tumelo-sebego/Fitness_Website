@@ -313,7 +313,7 @@ header
   font-size: 13px;
   padding: 11px 17px;
   background-color: #a6ed45;
-  color: #003023;
+  color: #003023 !important;
   text-align: center;
   font-weight: 400;
   letter-spacing: 0px;
