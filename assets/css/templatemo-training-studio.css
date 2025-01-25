@@ -182,8 +182,8 @@ body {
   display: inline-block;
   font-size: 15px;
   padding: 12px 20px;
-  background-color: #ed563b;
-  color: #fff;
+/*  background-color: #ed563b;*/
+  color: #003023 !important;
   text-align: center;
   font-weight: 400;
   text-transform: uppercase;
@@ -308,7 +308,7 @@ header
   color: #fff;
 }
 
-.header-area .main-nav .nav li:last-child a {
+.header-area .main-nav .nav li:last-child a, .main-button a {
   display: inline-block;
   font-size: 13px;
   padding: 11px 17px;
@@ -323,7 +323,7 @@ header
   line-height: 20px;
 }
 
-.header-area .main-nav .nav li:last-child a:hover {
+.header-area .main-nav .nav li:last-child a:hover, .main-button a:hover {
   background-color: #e0fef1;
   opacity: 1;
 }
