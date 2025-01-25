@@ -1246,3 +1246,13 @@ responsive
     margin-left: 130px;
   }
 }
+
+/* CSS */
+#bg-image {
+  width: 965px;
+  height: 737px;
+  background-image: url('assets/images/Hero-Img.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
