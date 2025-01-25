@@ -213,7 +213,7 @@ header
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
-  color: #232d39!important;
+  color: #e0fef1 !important;
 }
 
 .background-header .main-nav .nav li:last-child a {
@@ -335,7 +335,7 @@ header
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #ed563b!important;
+  color: #a6ed45 !important;
   opacity: 1;
 }
 
