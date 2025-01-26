@@ -54,6 +54,20 @@
 		});
 	}
 
+	// Close menu when a menu item is clicked
+	$('.header-area .nav a').on('click', function () {
+		$('.menu-trigger').removeClass('active'); // Remove active class from menu-trigger
+		$('.header-area .nav').slideUp(200); // Slide up the menu
+	});
+
+	// Close menu when clicking outside the menu
+	$(document).on('click', function (e) {
+		if (!$(e.target).closest('.header-area .nav, .menu-trigger').length) {
+			// If the click is outside the menu and not on the menu-trigger
+			$('.menu-trigger').removeClass('active');
+			$('.header-area .nav').slideUp(200);
+		}
+	});
 
 	$(document).ready(function () {
 	    $(document).on("scroll", onScroll);
