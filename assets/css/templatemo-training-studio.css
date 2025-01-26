@@ -621,6 +621,7 @@ banner
   left: 0;
   bottom: 0px;
   width: 100%;
+  height: 100vh;
 }
 
 .main-banner .caption {
@@ -1250,7 +1251,7 @@ responsive
 /* CSS */
 #bg-image {
   width: 100%;
-  height: 737px;
+  height: 100vh;
   background-image: url('../images/Hero-Img.jpg');
   background-size: cover;
   background-position: center;
