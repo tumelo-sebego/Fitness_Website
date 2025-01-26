@@ -435,7 +435,7 @@ header
 }
 
 .background-header .main-nav .menu-trigger.active span:before {
-  background-color: #1e1e1e;
+  background-color: #e0fef1;
 }
 
 .header-area .main-nav .menu-trigger.active span:after {
@@ -447,7 +447,7 @@ header
 }
 
 .background-header .main-nav .menu-trigger.active span:after {
-  background-color: #1e1e1e;
+  background-color: #e0fef1;
 }
 
 .header-area.header-sticky {
