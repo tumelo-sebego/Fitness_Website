@@ -1335,3 +1335,12 @@ a.navbar-brand{
   background-color: #45ebe5;
   text-align: center
 }
+
+.about-video:before {
+  content: "";
+  background:
+  color-mix(in srgb, #383434, transparent 30%);
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+}
