@@ -1313,6 +1313,7 @@ a.navbar-brand{
 }
 
 .about-video{
-  width: 50%;
+  width: 100%;
   background-color: #45ebe5;
+  text-align: center
 }
