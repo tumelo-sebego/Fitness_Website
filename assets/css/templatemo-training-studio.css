@@ -1336,14 +1336,15 @@ a.navbar-brand{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  text-align: center
+  text-align: center;
+  height : 30rem;
 
 }
 
 .about-video:before {
   content: "";
   background:
-  color-mix(in srgb, #383434, transparent 30%);
+  color-mix(in srgb, #003023, transparent 70%);
   position: absolute;
   inset: 0;
   z-index: 2;
