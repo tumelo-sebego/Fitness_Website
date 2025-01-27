@@ -69,6 +69,13 @@
 		}
 	});
 
+	/**
+   * Initiate glightbox
+   */
+	const glightbox = GLightbox({
+		selector: '.glightbox'
+	});
+
 	$(document).ready(function () {
 	    $(document).on("scroll", onScroll);
 	    
