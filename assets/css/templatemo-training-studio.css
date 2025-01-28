@@ -683,7 +683,8 @@ features
 }
 
 .feature-item .right-content {
-  display: inline;
+  display: flex;
+  flex-direction: column;
 }
 
 .feature-item .right-content h4 {
@@ -1247,7 +1248,7 @@ responsive
 
 @media (max-width: 450px) {
   .feature-item .right-content a.text-button {
-    margin-left: 130px;
+/*    margin-left: 130px;*/
   }
 }
 
