@@ -1338,6 +1338,7 @@ a.navbar-brand{
   background-repeat: no-repeat;
   text-align: center;
   height : 30rem;
+  position: relative
 
 }
 
