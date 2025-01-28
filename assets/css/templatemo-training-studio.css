@@ -159,6 +159,9 @@ body {
   letter-spacing: 0.5px;
   margin-top: 0px;
   margin-bottom: 0px;
+  display: inline-block; /* Ensures the border only spans the text width */
+  border-bottom: 2px solid #003023; /* Border style */
+  padding-bottom: 10px; /* Space between text and border */
 }
 
 .section-heading h2 em {
