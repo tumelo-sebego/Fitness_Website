@@ -164,6 +164,10 @@ body {
   padding-bottom: 10px; /* Space between text and border */
 }
 
+.section-heading p{
+  padding-top: 2rem !important;
+}
+
 .section-heading h2 em {
   font-style: normal;
   color: #a6ed45;
