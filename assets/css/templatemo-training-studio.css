@@ -1346,7 +1346,7 @@ a.navbar-brand{
 
 }
 
-.about-video:before, .call-to-action-2:before {
+.about-video:before{
   content: "";
   background:
   color-mix(in srgb, #003023, transparent 70%);
@@ -1380,4 +1380,13 @@ a.navbar-brand{
 .call-to-action-2 .container{
   position: relative;
   z-index: 3;
+}
+
+.call-to-action-2:before {
+  content: "";
+  background:
+  color-mix(in srgb, #003023, transparent 45%);
+  position: absolute;
+  inset: 0;
+  z-index: 2;
 }
