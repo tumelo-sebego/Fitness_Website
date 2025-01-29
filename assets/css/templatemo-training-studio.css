@@ -1375,3 +1375,8 @@ a.navbar-brand{
   object-fit: cover;
   z-index: 1;
 }
+
+.call-to-action-2 .container{
+  position: relative;
+  z-index: 3;
+}
