@@ -1358,3 +1358,9 @@ a.navbar-brand{
 #about-me{
   margin-bottom: 80px;
 }
+
+.call-to-action-2{
+  padding: 120px 0;
+  position: relative;
+  clip-path: inset(0);
+}
