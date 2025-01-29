@@ -1346,7 +1346,7 @@ a.navbar-brand{
 
 }
 
-.about-video:before {
+.about-video:before, .call-to-action-2:before {
   content: "";
   background:
   color-mix(in srgb, #003023, transparent 70%);
