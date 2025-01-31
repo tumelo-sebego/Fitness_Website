@@ -1072,6 +1072,10 @@ contact
   color: #e0fef1;
 }
 
+#contact-us h3 {
+  color: #a6ed45;
+}
+
 /*.contact-form button {*/
 /*  display: inline-block;*/
 /*  font-size: 13px;*/
