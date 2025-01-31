@@ -1067,6 +1067,11 @@ contact
 #contact-us h2{
   border-bottom: 3px solid #e0fef1;
 }
+
+#contact-us p {
+  color: #e0fef1;
+}
+
 /*.contact-form button {*/
 /*  display: inline-block;*/
 /*  font-size: 13px;*/
