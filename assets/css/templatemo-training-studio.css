@@ -672,7 +672,7 @@ features
 ---------------------------------------------
 */
 
-#features {
+#features, #herbal-life {
   margin-bottom: 80px;
 }
 
@@ -1397,4 +1397,12 @@ a.navbar-brand{
 
 #herbal-life p{
   font-size: 16px;
+}
+
+.row.feature{
+  padding: 30px 0;
+}
+
+.feature img{
+  border-radius: 5px;
 }
