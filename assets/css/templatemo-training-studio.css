@@ -1141,11 +1141,18 @@ footer p a:hover {
   color: #ed563b;
 }
 
-.footer_logo img {
+.footer-logo img {
   width: 30rem;
 }
 
+.footer-logo h4{
+  color: #e0fef1;
+  padding: 2rem 0;
+}
 
+.footer_bottom p {
+  color: #e0fef1;
+}
 /* 
 ---------------------------------------------
 preloader
