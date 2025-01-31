@@ -1141,6 +1141,9 @@ footer p a:hover {
   color: #ed563b;
 }
 
+.footer_logo img {
+  width: 30rem;
+}
 
 
 /* 
@@ -1297,7 +1300,7 @@ responsive
   background-repeat: no-repeat;
 }
 
-.main-logo{
+.main-logo, .footer-logo{
   width: 290px
 }
 
