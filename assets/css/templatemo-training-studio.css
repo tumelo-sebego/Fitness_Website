@@ -315,7 +315,7 @@ header
   color: #fff;
 }
 
-.header-area .main-nav .nav li:last-child a, .main-button a {
+.header-area .main-nav .nav li:last-child a, .main-button a, .contact-form button {
   display: inline-block;
   font-size: 13px;
   padding: 11px 17px;
@@ -330,7 +330,7 @@ header
   line-height: 20px;
 }
 
-.header-area .main-nav .nav li:last-child a:hover, .main-button a:hover {
+.header-area .main-nav .nav li:last-child a:hover, .main-button a:hover, .contact-form button:hover {
   background-color: #e0fef1;
   opacity: 1;
 }
@@ -1064,24 +1064,24 @@ contact
   color: #7a7a7a;
 }
 
-.contact-form button {
-  display: inline-block;
-  font-size: 13px;
-  padding: 11px 17px;
-  background-color: #ed563b;
-  color: #fff;
-  text-align: center;
-  font-weight: 400;
-  text-transform: uppercase;
-  transition: all .3s;
-  border: none;
-  outline: none;
-  margin-top: -8px;
-}
+/*.contact-form button {*/
+/*  display: inline-block;*/
+/*  font-size: 13px;*/
+/*  padding: 11px 17px;*/
+/*  background-color: #ed563b;*/
+/*  color: #fff;*/
+/*  text-align: center;*/
+/*  font-weight: 400;*/
+/*  text-transform: uppercase;*/
+/*  transition: all .3s;*/
+/*  border: none;*/
+/*  outline: none;*/
+/*  margin-top: -8px;*/
+/*}*/
 
-.contact-form button:hover {
-  background-color: #f9735b;
-}
+/*.contact-form button:hover {*/
+/*  background-color: #f9735b;*/
+/*}*/
 
 
 
