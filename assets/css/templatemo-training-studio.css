@@ -1441,3 +1441,28 @@ a.navbar-brand{
 .feature h2 {
   color: #003023;
 }
+
+.whatsapp {
+  position: fixed;
+  visibility: visible;
+  opacity: 0;
+  right: 15px;
+  bottom: -15px;
+  z-index: 99999;
+  background-color: #003023;
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.whatsapp i {
+  font-size: 24px;
+  color: #e0fef1;
+  line-height: 0;
+}
+
+.whatsapp:hover {
+  background-color: #a6ed45;
+  color: #003023;
+}
