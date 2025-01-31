@@ -1272,11 +1272,11 @@ responsive
   #contact-us #map {
     margin-bottom: -7px;
   }
-  #contact-us .contact-form {
-    padding: 30px;
-  }
-  #contact-us .contact-form #contact {
-    padding: 30px;
+/*  #contact-us .contact-form {*/
+/*    padding: 30px;*/
+/*  }*/
+  #contact-us {
+    padding: 14px;
   }
 
 }
