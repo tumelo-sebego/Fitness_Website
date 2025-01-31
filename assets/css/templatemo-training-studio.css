@@ -1076,7 +1076,7 @@ contact
   color: #a6ed45;
 }
 
-#contact-us .info-item i {
+#contact-us .info-item i, .footer-social i {
   color: #003023;
   background: #a6ed45;
   font-size: 20px;
