@@ -1076,6 +1076,21 @@ contact
   color: #a6ed45;
 }
 
+#contact-us .info-item i {
+  color: #003023;
+  background: #a6ed45;
+  font-size: 20px;
+  width: 44px;
+  height: 44px;
+  display: flex
+  ;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  margin-right: 15px;
+}
+
 /*.contact-form button {*/
 /*  display: inline-block;*/
 /*  font-size: 13px;*/
