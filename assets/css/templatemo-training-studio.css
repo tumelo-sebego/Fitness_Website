@@ -1125,6 +1125,7 @@ footer
 footer {
   text-align: center;
   padding: 30px 0px;
+  background-color: #003023;
 }
 
 footer p {
@@ -1313,7 +1314,8 @@ responsive
 }
 
 .main-logo, .footer-logo{
-  width: 290px
+  width: 290px;
+  margin: auto;
 }
 
 a.navbar-brand{
