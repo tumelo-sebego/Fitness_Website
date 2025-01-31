@@ -1091,6 +1091,10 @@ contact
   margin-right: 15px;
 }
 
+#contact-us .info-item {
+  padding-bottom: 2rem;
+}
+
 /*.contact-form button {*/
 /*  display: inline-block;*/
 /*  font-size: 13px;*/
