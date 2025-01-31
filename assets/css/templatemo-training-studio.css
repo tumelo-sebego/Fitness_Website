@@ -1134,11 +1134,7 @@ footer p {
 
 footer p a {
   cursor: pointer;
-  color: #ed563b;
-}
-
-footer p a:hover {
-  color: #ed563b;
+  color: #a6ed45;
 }
 
 .footer-logo img {
