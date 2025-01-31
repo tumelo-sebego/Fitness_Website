@@ -1446,14 +1446,15 @@ a.navbar-brand{
   position: fixed;
   visibility: visible;
   opacity: 0;
-  right: 15px;
-  bottom: -15px;
+  right: 30px;
+  bottom: 30px;
   z-index: 99999;
   background-color: #003023;
   width: 44px;
   height: 44px;
   border-radius: 50px;
   transition: all 0.4s;
+  opecity: 1;
 }
 
 .whatsapp i {
@@ -1462,7 +1463,7 @@ a.navbar-brand{
   line-height: 0;
 }
 
-.whatsapp:hover {
+.whatsapp:hover, .whatsapp i:hover {
   background-color: #a6ed45;
   color: #003023;
 }
