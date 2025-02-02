@@ -1461,7 +1461,7 @@ a.navbar-brand{
 
 .whatsapp {
   position: fixed;
-  visibility: visible;
+  display: none; /* Hide the button by default */
   opacity: 0;
   right: 30px;
   bottom: 30px;
