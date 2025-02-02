@@ -14,7 +14,7 @@ Table of contents
 03. global styles
 04. header
 05. banner
-06. features
+06. services
 07. testimonials
 08. contact
 09. footer
@@ -668,11 +668,11 @@ banner
 
 /*
 ---------------------------------------------
-features
+services
 ---------------------------------------------
 */
 
-#features, #herbal-life {
+#services, #herbal-life {
   margin-bottom: 80px;
 }
 
@@ -1272,10 +1272,10 @@ responsive
   .main-banner .caption h2 {
     font-size: 50px;
   }
-  #features {
+  #services {
     margin-bottom: 110px;
   }
-  #features .feature-item {
+  #services .feature-item {
     margin-bottom: 30px;
   }
   #our-classes .tabs-content {
