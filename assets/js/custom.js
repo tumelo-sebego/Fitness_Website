@@ -21,9 +21,9 @@
 
 		// Hide the button if it overlaps with the header or footer
 		if (scroll < header || scroll + windowHeight > footerOffset) {
-			$('#whatsapp').fadeOut();
+			$('#whatsapp').removeClass('visible'); // Fade out the button
 		} else {
-			$('#whatsapp').fadeIn();
+			$('#whatsapp').addClass('visible'); // Fade in the button
 		}
 	});
 	
@@ -87,7 +87,7 @@
 
 	$(document).ready(function () {
 
-		$('#whatsapp').fadeIn();
+		$('#whatsapp').addClass('visible'); // Fade in the button
 	    $(document).on("scroll", onScroll);
 	    
 	    //smoothscroll
