@@ -10,12 +10,21 @@
 	  var scroll = $(window).scrollTop();
 	  var box = $('.header-text').height();
 	  var header = $('header').height();
+	  var windowHeight = $(window).height();
+	  var footerOffset = $('footer').offset().top;
 
 	  if (scroll >= box - header) {
 	    $("header").addClass("background-header");
 	  } else {
 	    $("header").removeClass("background-header");
 	  }
+
+		// Hide the button if it overlaps with the header or footer
+		if (scroll < header || scroll + windowHeight > footerOffset) {
+			$('#whatsapp').fadeOut();
+		} else {
+			$('#whatsapp').fadeIn();
+		}
 	});
 	
 
