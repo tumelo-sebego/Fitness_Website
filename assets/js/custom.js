@@ -77,6 +77,8 @@
 	});
 
 	$(document).ready(function () {
+
+		$('#whatsapp').fadeIn();
 	    $(document).on("scroll", onScroll);
 	    
 	    //smoothscroll
